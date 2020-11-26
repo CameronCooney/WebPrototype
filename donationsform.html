@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Donations Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header> 
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donationsform.html">Donate</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="apply.html">Apply</a></li>
+          <li><a href="#number">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+<!--Grid Plan-->
+    <div class="donategrid">
+<!--Logo-->
+      <div class="donatelogo">
+        <img src="logo.png" alt="logo" width="300" height="250">
+      </div>
+<!--Headings-->
+      <div class="donateh1"> 
+        <h2>Personal Information</h2>
+      </div>
+      <div class="donateform">
+        <form>
+        <label for="donatefname">First name:</label><br>
+        <br>
+        <input type="text" id="donatefname" name="fname"><br>
+        <br>
+        <label for="donatelname">Last name:</label><br>
+        <br>
+        <input type="text" id="donatelname" name="lname">
+        <br>
+        <br>
+        <label for="birthday">Birthday:</label>
+        <br>
+        <br>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <br>
+        <input type="checkbox" id="tandc" name="tandc" value="T&C">
+        <label for="vehicle1"> Terms and Conditions</label><br>
+        </form>
+      </div>
+
+      <div class="donateh2"> 
+        <h2>Payment Information</h2>
+      </div>
+
+      <div class="donateform">
+        <form>
+        <label for="donatecname">Name on card:</label><br>
+        <br>
+        <input type="text" id="donatecname" name="cname"><br>
+        <br>
+        <label for="donatecnum">Card number:</label><br>
+        <br>
+        <input type="text" id="donatecnum" name="cnum">
+        <br>
+        <br>
+        <label for="exdate">Expiriy Date:</label>
+        <br>
+        <br>
+        <input type="month" id="exdate" name="exdate">
+        <br>
+        <br>
+        <label for="email">CVV:</label>
+        <br>
+        <br>
+        <input type="number" id="cvv" name="cvv" min="0" max="999">
+        <br>
+        <br>
+        <label for="donateamount">Donation Amount:</label>
+        <br>
+        <br>
+        <input type="number" id="donateamount" name="amount" min="1" max="500">
+        <br>
+        </form>
+      </div>
+
+      <div class="submitbutton">
+        <a href="thanksfordonating.html" class="submit">Submit</a>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+  </body>
+</html>
