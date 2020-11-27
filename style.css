@@ -150,5 +150,45 @@ input{
   font-size: 20px;
   background-color: #f0bcc9;
 }
+a.submit:hover{
+  background-color: #DF7c95;
+
+
+}
+
+
+
+
+/*THANKS FOR DONATING*/
+.thanksfordonating{ 
+  text-align: center;
+}
+/*Heading*/
+.thanksheading{
+  color: #3d3d3d;
+  padding: 20px;
+}
+.thankslogo{
+  padding-bottom: 40px;
+}
+/*Button*/
+.returnbutton{
+  text-align: center;
+  padding: 20px;
+}
+.return{
+  border-radius: 20%;
+  padding: 15px;
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 20px;
+  background-color: #f0bcc9;
+}
+a.return:hover{
+  background-color: #DF7c95;
+}
+
+
+
 
 
